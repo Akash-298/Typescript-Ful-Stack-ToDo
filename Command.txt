@@ -1,0 +1,13 @@
+npm install -g typescript  --> to nstall the ts compiler
+
+tsc-->convert ts to js file.
+
+node filenae.js  ->to run the file.
+  npx create-react-app typescript-fullstack-todo --template typescript    -->create react app
+
+  npm install eslint --save-dev  --->insatall eslint
+   npx eslint --init
+npm i eslint-plugin-import eslint-import-resolver-typescript --save-
+
+npm i --save-dev prettier eslint-config-prettier eslint-plugin-prettier
+  
