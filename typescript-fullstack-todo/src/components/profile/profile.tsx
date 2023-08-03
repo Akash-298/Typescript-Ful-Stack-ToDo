@@ -4,14 +4,14 @@ import React, { FC, ReactElement } from 'react';
 import PropTypes from 'prop-types';
 
 interface IProfile {
-  name?: string;
+  name: string;
 }
 
 export const Profile: FC<IProfile> = (
   props,
 ): ReactElement => {
   //  Destructure props
-  const { name = 'Shila' } = props;
+  const { name = 'Akash' } = props;
   return (
     <Box
       display="flex"
@@ -42,5 +42,5 @@ export const Profile: FC<IProfile> = (
 };
 
 Profile.propTypes = {
-  name: PropTypes.string,
+  name: PropTypes.string.isRequired,
 };

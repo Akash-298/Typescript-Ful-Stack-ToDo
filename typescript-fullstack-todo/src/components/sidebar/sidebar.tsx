@@ -4,7 +4,7 @@ import { Grid } from '@mui/material';
 import { Profile } from '../profile/profile';
 import { CreateTaskForm } from '../createTaskForm/createTaskForm';
 
-export const Sidebar: FC = (): ReactElement => {
+export const Sidebar: FC<any> = (props): ReactElement => {
   return (
     <Grid
       item
